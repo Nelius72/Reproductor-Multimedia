@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/favorito"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp" />
+
+
+    <TextView
+        android:id="@+id/nombre_artista"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/imageView"
+        android:text="Nombre Artista"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/nombre_cancion"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombre_artista"
+        android:layout_toEndOf="@+id/imageView"
+        android:text="Canción"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/imageViewFav"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:visibility="visible"
+        app:srcCompat="@drawable/pokeball"
+        tools:visibility="visible" />
+
+
+</RelativeLayout>

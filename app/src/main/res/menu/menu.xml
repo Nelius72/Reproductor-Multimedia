@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/RepVideo"
+        android:title="Rep.Video" />
+    <item
+        android:id="@+id/hubCanciones"
+        android:title="Hub Canciones" />
+    <item
+        android:id="@+id/itemPlaylist"
+        android:title="Playlist" />
+    <item
+        android:id="@+id/itemSalir"
+        android:title="Salir" />
+    <item
+        android:id="@+id/itemAcerca"
+        android:title="Acerca de" />
+
+    <item
+        android:id="@+id/iconoUsuarioMenu"
+        app:showAsAction="always" />
+
+
+</menu>
